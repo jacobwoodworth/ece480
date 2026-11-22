@@ -11,6 +11,8 @@
 To start the logger, the command is in the format:
 `python server/MotorLogger.py --label {condition} --duration {duration}`
 
+Note: {duration} is optional and pressing Ctrl+C will also end the logging
+
 For Normal Operation:
 `python server/MotorLogger.py --label stable --duration {duration}`
 
