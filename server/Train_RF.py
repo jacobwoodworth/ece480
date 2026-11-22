@@ -1,5 +1,5 @@
 """
-train_rf.py  -  trains and evaluates the random forest fault classifier
+train_rf.py  -  trains and evaluates the random forest fault classifier from scikit-learn
 
 Gets its data from dataset.py (which reads the CSVs saved by motor_logger.py).
 

@@ -1,4 +1,4 @@
-## Steps To Run:
+## Steps To Run
 
 ### Setup
 
