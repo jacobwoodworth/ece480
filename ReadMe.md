@@ -9,21 +9,22 @@
 ### Logging
 
 To start the logger, the command is in the format:
-`python server/MotorLogger.py --label {condition} --duration {duration}
+`python server/MotorLogger.py --label {condition} --duration {duration}`
 
 For Normal Operation:
-`python server/MotorLogger.py --label stable --duration {duration}
+`python server/MotorLogger.py --label stable --duration {duration}`
 
 For Overload:
-`python server/MotorLogger.py --label overload --duration {duration}
+`python server/MotorLogger.py --label overload --duration {duration}`
 
 For Blocked Airflow:
-`python server/MotorLogger.py --label "airflow blocked" --duration {duration}
+`python server/MotorLogger.py --label "airflow blocked" --duration {duration}`
 
 For Misalignment:
-`python server/MotorLogger.py --label misalignment --duration {duration}
+`python server/MotorLogger.py --label misalignment --duration {duration}`
 
 ### Training
 
-python server/Dataset.py
-python server/Train_RF.py
+`python server/Dataset.py`
+
+`python server/Train_RF.py`
