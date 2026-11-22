@@ -13,7 +13,7 @@ import pandas as pd
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 # Features the random forest uses
-FEATURES = ["irms_A", "vrms_V", "power_W", "pf", "crest", "thd", "sideband", "ripple", "freq_Hz"]
+FEATURES = ["irms_A", "power_W", "pf", "crest", "thd", "sideband", "ripple"]
 
 
 def load_dataset(data_dir=DATA_DIR, verbose=True):
